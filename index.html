@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Cobra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Jogo da Cobra</h1>
+
+    <div id="scoreboard">
+      <div class="score-item">
+        <span class="score-label">Pontos</span>
+        <span class="score-value" id="score">0</span>
+      </div>
+      <div class="score-item">
+        <span class="score-label">Recorde</span>
+        <span class="score-value" id="high-score">0</span>
+      </div>
+      <div class="score-item">
+        <span class="score-label">Nível</span>
+        <span class="score-value" id="level">1</span>
+      </div>
+    </div>
+
+    <div id="game-wrapper">
+      <canvas id="game"></canvas>
+
+      <div id="overlay" class="overlay">
+        <div id="overlay-content">
+          <h2 id="overlay-title">Jogo da Cobra</h2>
+          <p id="overlay-message">Use as setas ou WASD para mover</p>
+          <button id="action-btn">Iniciar</button>
+        </div>
+      </div>
+    </div>
+
+    <p id="controls-hint">↑ ↓ ← → ou W A S D para mover &nbsp;·&nbsp; Enter para iniciar</p>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
