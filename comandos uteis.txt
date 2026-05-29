@@ -4,5 +4,5 @@
 
 3- git comit -m "primeiro commit do projeto"
 
-4- 
+4- git remote add origin git@github.com:saulofender/HelloWorldClaudeCode.git
 
